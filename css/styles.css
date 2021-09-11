@@ -1,0 +1,178 @@
+#title{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:9%;
+}
+
+.logo{
+    width:70%;
+}
+
+.starter{
+    padding:5% 10%;
+}
+
+
+.starbucks-text{
+    color:#00704A;
+    font-size:80px;
+    font-family: 'Glory', sans-serif;
+}
+.start-heading{
+    font-size:50px;
+}
+.navbar{
+    font-size:20px;
+    padding:1rem 0 0 4rem;
+}
+.nav-item{
+    padding:0 10px;
+}
+.coffee{
+    position:absolute;
+    top:10%;
+    left:150px;
+    width:50%;
+}
+.circle{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background:#00704A;
+    clip-path: circle(600px at right 800px);
+}
+
+#new-comer{
+    font-family: 'Raleway', sans-serif;
+    margin:45px 40px 30px 35px;
+    background-color:#E2C2B9;
+    padding-bottom:2%;
+}
+
+.new-text{
+    font-size:30px;
+    text-align: center;
+    margin-top:180px;
+}
+.new{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:55px;
+}
+.new-para{
+    font-size:25px;
+}
+.new-coffee{
+    width:100%;
+}
+
+#burger{
+    margin:55px 40px 30px 35px;
+    background-color:#1E3932; 
+
+}
+.burger-image{
+    width:100%;
+}
+
+.burger-stuff{
+    color:white;
+    text-align: center;
+    margin-top:170px;
+}
+
+.burger-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:55px;
+}
+.burger-para{
+    font-size:25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#community{
+    margin:55px 40px 30px 35px;
+    background-color: #D4E9E2;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+
+}
+.community-image{
+    width:100%;
+}
+
+.community-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:30px;
+}
+
+
+.community-stuff{
+    margin-top:125px;
+    text-align: center;
+}
+
+hr{
+    height:1px;
+    border:none;
+    color:grey;
+    background-color: grey;
+}
+
+#footer{
+    background-color:#00704A;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.fab{
+    color:white;
+    margin:0 12px 15px 12px;
+}
+.fab:hover{
+    color:#F0355C;
+}
+
+.footer-text{
+    color:white;
+}
+
+@media (max-width: 1000px) {
+    #new-comer{
+        margin-top:520px;
+    }
+    .circle{
+        width:100%;
+        margin-top:390px;
+    }
+    #new-comer{
+        margin-right:0;
+        margin-left:0;
+    }
+    .new-text{
+        margin-top: 35px;
+    }
+    .newcomer-row{
+        display: flex;
+         flex-flow: column-reverse;
+          }
+    .coffee{
+    }
+    #burger{
+        margin-right:0;
+        margin-left:0;
+        padding-bottom:20px;
+    }
+    .burger-stuff{
+        margin-top:40px;
+    }
+    #community{
+        margin-right:0;
+        margin-left: 0;
+        padding-bottom:20px;
+    }
+    .community-stuff{
+        margin-top:0px;
+    }
+
+}
